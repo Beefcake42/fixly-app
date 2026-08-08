@@ -1,0 +1,14 @@
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY EXPO_PUBLIC_SUPABASE_URL
+PluginError: Failed to resolve plugin for module "expo-camera" relative to "/workspaces/fixly-app/fixly-standalone-v6-configured". Do you have node modules installed?
+PluginError: Failed to resolve plugin for module "expo-camera" relative to "/workspaces/fixly-app/fixly-standalone-v6-configured". Do you have node modules installed?
+    at resolvePluginForModule (/workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@expo/config-plugins/build/utils/plugin-resolver.js:84:9)
+    at resolveConfigPluginFunctionWithInfo (/workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@expo/config-plugins/build/utils/plugin-resolver.js:133:7)
+    at resolveConfigPluginFunction (/workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@expo/config-plugins/build/utils/plugin-resolver.js:124:7)
+    at withStaticPlugin (/workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@expo/config-plugins/build/plugins/withStaticPlugin.js:83:70)
+    at /workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@expo/config-plugins/build/plugins/withPlugins.js:28:84
+    at Array.reduce (<anonymous>)
+    at withPlugins (/workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@expo/config-plugins/build/plugins/withPlugins.js:28:18)
+    at withConfigPlugins (/workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@expo/config/build/plugins/withConfigPlugins.js:33:47)
+    at fillAndReturnConfig (/workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@expo/config/build/Config.js:247:78)
+    at getConfig (/workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@expo/config/build/Config.js:304:10)

@@ -1,0 +1,21 @@
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY EXPO_PUBLIC_SUPABASE_URL
+Starting project at /workspaces/fixly-app/fixly-standalone-v6-configured
+ ERROR  An unknown error occurred while installing React Native DevTools. Details:
+
+/workspaces/fixly-app/fixly-standalone-v6-configured/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-bridge-2.0.so.0: cannot open shared object file: No such file or directory
+
+Starting Metro Bundler
+
+Tunnel connected.
+Tunnel ready.
+CommandError: It looks like you're trying to use TypeScript but don't have the required
+dependencies installed.
+
+Install typescript@~6.0.3, @types/react@~19.2.4 by running:
+
+npx expo install typescript @types/react
+
+If you're not using TypeScript, please remove the TypeScript files from your
+project
+

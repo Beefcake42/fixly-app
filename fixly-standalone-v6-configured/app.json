@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Fixly",
+    "slug": "fixly",
+    "scheme": "fixly",
+    "version": "0.6.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Fixly to photograph items you want help repairing."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Fixly to access photos of items you want help repairing."
+        }
+      ],
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0B1220",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 180
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.fixly.smartaid",
+      "versionCode": 6,
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "POST_NOTIFICATIONS"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "monochromeImage": "./assets/images/monochrome-icon.png",
+        "backgroundColor": "#0B1220"
+      },
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "ios": {
+      "bundleIdentifier": "com.fixly.smartaid",
+      "buildNumber": "6",
+      "icon": "./assets/images/icon.png"
+    },
+    "icon": "./assets/images/icon.png",
+    "extra": {
+      "eas": {
+      }
+    }
+  }
+}
